@@ -36,6 +36,7 @@ If you did all of the above you may now follow these install instructions to set
 6. Run `install.sh` to start the installation
 7. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
 8. Restart your computer to finalize the process
+9. Open Keyboard in System Preferences and select in input `U.S. (Arnor)` in English Keyboard
 
 Your Mac is now ready to use!
 
