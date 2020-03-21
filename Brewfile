@@ -5,16 +5,19 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'awscli'
+brew 'ack'
+# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'fzf'
 brew 'git'
-brew 'gnupg2'
+# brew 'gnupg2'
 brew 'grep'
-brew 'mackup'
+# brew 'httpie'
+# brew 'hub'
+# brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'neovim'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
@@ -29,9 +32,13 @@ brew 'yarn'
 # Apps
 cask 'appcleaner'
 cask 'calibre'
+cask 'emacs'
 cask 'docker'
+cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
+cask 'google-chrome-canary'
+cask 'google-cloud-sdk'
 cask 'gpg-suite'
 cask 'iterm2'
 cask 'java'
@@ -43,6 +50,10 @@ cask 'the-unarchiver'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'lerna'
+cask 'microsoft-teams'
+cask 'the-unarchiver'
+cask 'visual-studio-code'
 
 # Quicklook - space on file for quick look
 cask 'qlcolorcode'

@@ -36,8 +36,6 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # Symlink vimrc file to the home directory
 ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
 
-ln -s $HOME/.dotfiles/_config/karabiner/karabiner.json $HOME/.config/karabiner/karabiner.json
-
 sudo cp -R keyboard/en_arnor.bundle /Library/Keyboard\ Layouts/
 
 # Set macOS preferences
